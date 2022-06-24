@@ -63,6 +63,14 @@ a:hover {
     display: none;
 }
 
+img {
+    display: inline-block;
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+
+
 @media (max-width: 952px) {
     label.logo {
         font-size: 30px;
@@ -71,6 +79,7 @@ a:hover {
     nav ul li a{
         font-size: 16px;
     }
+
 }
 
 @media (max-width: 858px) {
@@ -107,13 +116,9 @@ a:hover {
     #check:checked ~ ul {
         left: 0;
     }
+  
 }
 
-img {
-    display: block;
-    max-width: 500px;
-    margin: 10px 0;
-}
 
 .info-zoo {
     color: #696969;
@@ -178,6 +183,7 @@ img {
     padding: 15px 20px;
     margin-bottom: 15px;
     border-radius: 10px;
+    
 }
 
 .card h2 {
