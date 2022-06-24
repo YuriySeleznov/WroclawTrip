@@ -1,0 +1,199 @@
+* {
+ padding: 0;
+ margin: 0;
+ text-decoration: none;
+ list-style: none;
+ box-sizing: border-box;   
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+nav {
+    background: #0082e6;
+    height: 80px;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active,
+a:hover {
+    background: #1b9bff;
+    transition: .5s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+
+#check {
+    display: none;
+}
+
+img {
+    display: inline-block;
+    max-width: 100%;
+    margin: 10px 0;
+}
+
+
+
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e40;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav ul li a {
+        font-size: 20px;
+    }
+
+    a:hover, a.active {
+        background: none;
+        color: #0082e6;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+  
+}
+
+
+.info-zoo {
+    color: #696969;
+    margin-bottom: 10px;
+}
+
+
+
+
+/* блоки */
+
+/* div {
+    max-width: 1500px;
+    margin: auto;
+    padding: 15px;
+    border: 1px solid grey;
+    margin: 20px auto;
+} */
+
+/* .road1 {
+    background: #F0F8FF;
+}
+
+.zoo {
+    background-color: #FFF8DC;
+}
+
+.hotel {
+    background-color: #F8F8FF;
+}
+
+.park {
+    background-color: #F0FFF0;
+}
+
+.road2 {
+    background-color: #F0E68C;
+} */
+
+.bg-one {
+    background: #98FB98;
+}
+
+.bg-two {
+    background: #98FB98;
+    
+}
+
+.bg-three {
+    background: #98FB98;
+}
+
+.bg-four {
+    background: #98FB98;
+}
+
+.bg-five {
+    background: #98FB98;
+}
+
+.card {
+    padding: 15px 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.list1 li,
+.list3 li,
+.list4 li,
+.list5 li {
+    color: #696969;
+    margin-bottom: 10px;
+}
