@@ -10,6 +10,10 @@ body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+div {
+ display: inline-block;
+}
+
 nav {
     background: #0082e6;
     height: 80px;
